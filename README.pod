@@ -1,0 +1,44 @@
+=pod
+
+=head1 NAME
+
+lgold - Liquid Gold
+
+=head1 SYNOPSIS
+
+Visualization for the Bill Lane Center for the West, Stanford University.
+Fall 2010 - Liquid Gold.
+
+=head1 DESCRIPTION
+
+Liquid Gold or lgold tries to visualize the location/size of water reservoirs in California in the historical context of population growth in the state.
+
+=head1 BUGS
+
+You better believe it.
+
+=head1 Seeing Visualizations
+
+Just load up the html file(s) present in a browser to check out the results.
+index.html should be a good start.
+
+=head1 CONTRIBUTING
+
+Too early to be accepting any contributions. Just using github to collaborate and distribute for now.
+ 
+=head1 SEE ALSO
+
+Yinfeng's github.
+
+west.stanford.edu
+
+=head1 AUTHORS
+
+Yinfeng Qin
+
+Geoff McGhee
+
+Nandu Jayakumar (firstname@univ.edu)
+
+=cut
+
