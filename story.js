@@ -55,6 +55,7 @@ if (GBrowserIsCompatible()) {
     tooltip.style.visibility = "hidden";
 
     var searchMarkers = [];
+    var pageStartDecadeIndex = 10; //1960 
 
     function drawOnMap (decadeIndex) {
 
@@ -87,7 +88,7 @@ if (GBrowserIsCompatible()) {
     } //function drawOnMap
 
     // Draw for first date - other dates will be acccessed through slider
-    drawOnMap(10);
+    drawOnMap(pageStartDecadeIndex);
     
 }
 // display a warning if the browser was not compatible
@@ -150,7 +151,12 @@ Object.size = function(obj) {
 
 
              // Sliders with ticks can be animated without YAHOO.util.Anim
-             slider.animate = true;
+             slider.animate = false;
+
+             // Set up initial state of thumb. 
+             // (1950 - 1850)/scaleFactor
+             var initialPixelOffset = (pageStartDecadeIndex - 0)/scaleFactor;
+             slider.setValue(initialPixelOffset, true);
 
              slider.getRealValue = function() {
                  return Math.round(this.getValue() * scaleFactor);
@@ -410,7 +416,7 @@ function drawCounties(map, decade, population) {
         data.push({region: cartographer_county, 
                    val: Math.log(100 * population[decade][county][0]), 
                    label: 
-                   county + " County<br />" +
+                   "<b>" + county + " County</b><br />" +
                    "Population (" + decade + "): " + population[decade][county][1] +
                    "<br />" +
                    "Pop. per sq mile (" + decade + "): " +
