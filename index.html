@@ -17,8 +17,8 @@
 
       #desc {
           font-style: italic;
-	  margin-top: 20px;
-	  margin-bottom: 40px;
+          margin-top: 20px;
+          margin-bottom: 40px;
       }
 
       #slider-bg {
@@ -32,7 +32,7 @@
       }
 
       #searchform {
-	  margin-top: 20px;
+          margin-top: 20px;
       }
       
       #fleft {
@@ -66,72 +66,79 @@
 
       <div id="bd" role="main">
         <div class="yui-gc">
-	  <div class="yui-u first">
-	    <div id="rivers" style="width: 590px; height: 600px; background:url(brown-board.jpg)">
-	    </div>
-	  </div>
+          <div class="yui-u first">
+            <div id="rivers" style="width: 590px; height: 600px; background:url(brown-board.jpg)">
+            </div>
+          </div>
 
-	  <div class="yui-u" id="mainrow">
-	    <div id="desc">
-	      An integrated system of dams, reservoirs, pumping plants, and
-	      aqueducts transport about 50 percent of the state's water to
-	      its people. Visualized here is the historical context of
-	      <b>reservoirs</b> against a backdrop of <b>population
-	      density</b> in the state.
-	      <br />
-	      <br />
-	      <br />
-	      <br />
-	      <!-- Use the time slider to visualize the population spread -->
-	      <!-- and reservoirs in use in each county at different times -->
-	      <!-- and use the search box to focus on a more specific area. -->
-	      
+          <div class="yui-u" id="mainrow">
+            <div id="desc">
+              An integrated system of dams, reservoirs, pumping plants, and
+              aqueducts transport about 50 percent of the state's water to
+              its people. Visualized here is the historical context of
+              <b>reservoirs</b> against a backdrop of <b>population
+              density</b> in the state.
+              <br />
+              <br />
+              <br />
+              <br />
+            </div>
+            <div id="slider-bg" class="yui-h-slider" tabindex="-1" title="Slider">
+              <div id="slider-thumb" class="yui-slider-thumb"><img src="http://yui.yahooapis.com/2.8.2r1/build/slider/assets/thumb-n.gif" alt="Change Dates"/></div>
+            <br />
+            <!-- <p>Pixel offset from start: <span id="d_offset"></span></p>
+                 <p>Calculated Value: <span id="d_val"></span></p> -->
+            <br />
+            Decade: <span id="d_date"></span>
+            </div>
 
-	    </div>  
-	    <div id="slider-bg" class="yui-h-slider" tabindex="-1" title="Slider">
-	      <div id="slider-thumb" class="yui-slider-thumb"><img src="http://yui.yahooapis.com/2.8.2r1/build/slider/assets/thumb-n.gif" alt="Change Dates"/></div>
-	    <br />
-	    <!-- <p>Pixel offset from start: <span id="d_offset"></span></p>
-		 <p>Calculated Value: <span id="d_val"></span></p> -->
-	    <br />
-	    Decade: <span id="d_date"></span>
-	    </div>
+            <div id="searchform">
+              <form name="searchform" action=""
+                    onsubmit="return update(this.searchbox.value);">
+                <input type="text" id="search" name="searchbox" />
+                <input type="submit" value="search addr/zip" id="submit"
+                       name="submit" />
+              </form>
+            </div>
 
-	    <div id="searchform">
-	      <form name="searchform" action=""
-		    onsubmit="return update(this.searchbox.value);">
-		<input type="text" id="search" name="searchbox" />
-		<input type="submit" value="search addr/zip" id="submit"
-		       name="submit" />
-	      </form>
-	    </div>
-
-	    <div id="legend">
-	    </div>
-	  </div>
-	</div>	  
+            <div id="legend">
+            </div>
+          </div>
+        </div>
 
         <div class="yui-g">
           <div id="fleft" class="yui-u first">
-	    <br />
-            Sources: <br/> 
-	    <a href="http://usgs.water.gov">USGS Water data</a>
             <br />
-	    <a href="http://www.census.gov">US Census population data</a>
+            Sources: <br/>
+            <a href="http://usgs.water.gov">USGS Water data</a>
+            <br />
+            <a href="http://www.census.gov">US Census population data</a>
             <br />
           </div>
           <div id="fright" class="yui-u">
-	    <br />
+            <br />
             By <a href="http://www.stanford.edu/~nandu">Nandu Jayakumar</a>, Yinfeng Qin &amp; Geoff Mcghee <br />
             <a href="http://west.stanford.edu">Bill Lane Center for the West, Stanford University</a> <br />
             (<a href="http://www.stanford.edu/~nandu/lgold/index.html">
-	    Live Version,</a>  
+            Live Version,</a>
             <a href="http://github.com/junkumar/lgold">Source Code </a>)
+            <div id="footerLicense" style="align:right;">
+              <p class="box">
+                <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">
+                  <img
+                      src="http://i.creativecommons.org/l/by/3.0/88x31.png"
+                      alt="Creative Commons License"
+                      style="border:none;" height="31" width="88" />
+                </a>
+              </p>
+            </div>
           </div>
         </div>
       </div><!-- bd -->
 
-      <div id="ft"></div>
+      <div id="ft">
+      </div>
+
     </div><!-- doc3 -->
 
 
@@ -154,7 +161,7 @@
 
     <!-- for special background tiles -->
     <script src="http://js.mapbox.com/g/2/mapbox.js"
-	    type="text/javascript"></script>
+            type="text/javascript"></script>
 
     <script type="text/javascript" src="data.js"></script>
     <!-- Need to load google maps api js before interact.js !-->
