@@ -1,4 +1,4 @@
-// data.js, metrics.js and others should be loaded before this script is.
+// data.js, Cartographer.js and others should be loaded before this script is.
 
 if (GBrowserIsCompatible()) {
     // http://colorbrewer2.org/index.php?type=qualitative&scheme=Set1&n=9
@@ -21,7 +21,7 @@ if (GBrowserIsCompatible()) {
     ];
     colors_sequential.reverse();
 
-    var map = new GMap2(document.getElementById("rivers"));
+    var map = new GMap2(document.getElementById("lgold"));
     // map.setCenter(new GLatLng(39.4472,-119.7363), 6); // Tahoe
     new GClientGeocoder().getLatLng(
         "Madera County, CA",
@@ -50,7 +50,7 @@ if (GBrowserIsCompatible()) {
 
     // set up marker mouseover tooltip div
     var tooltip = document.createElement("div");
-    document.getElementById("rivers").appendChild(tooltip);
+    document.getElementById("lgold").appendChild(tooltip);
     tooltip.id = "tooltip";
     tooltip.style.visibility = "hidden";
 
@@ -470,4 +470,3 @@ function update(address) {
     );
     return false;
 }
-
