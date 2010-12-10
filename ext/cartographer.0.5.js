@@ -944,7 +944,7 @@ cg.Choropleth.prototype.createPolygon = function( item ) {
 	GEvent.addListener( polygon, "mouseover", function() {}); // we do this to ensure a "pointer" cursor
 	GEvent.addListener( polygon, "click", function() { 
 		var html = "<div class='cartographer-balloon' style='height:60px;margin:0 14px 0 0;max-height:100px;overflow:auto;'>";
-		html += "<strong>" + (( item.label ) ? item.label : shape.name) + "</strong><br/>" + "</div>"; 
+		html += (( item.label ) ? item.label : shape.name) + "</div>"; 
 		_map.openInfoWindowHtml( new GLatLng(center.lat, center.lng), html );
 	});
 	return polygon;
