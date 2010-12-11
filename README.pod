@@ -7,24 +7,41 @@ lgold - Liquid Gold
 =head1 SYNOPSIS
 
 Visualization for the Bill Lane Center for the West, Stanford University.
-Fall 2010 - Liquid Gold.
+Also as a project for CS448B, Fall 2010, Stanford University.
 
 =head1 DESCRIPTION
 
-Liquid Gold or lgold tries to visualize the location/size of water reservoirs in California in the historical context of population growth in the state.
+Liquid Gold or lgold tries to visualize the location/size of water
+reservoirs in California in the historical context of population
+growth in the state.
 
 =head1 BUGS
 
 You better believe it.
 
-=head1 Seeing Visualizations
+=head1 License/Copyright
 
-Just load up the html file(s) present in a browser to check out the results.
-index.html should be a good start.
+See LICENSE
+
+=head1 Documentation/Source Code
+
+github.com/junkumar/lgold
+
+=head1 Building/Installing
+
+After placing a SQLite file in the directory with the right data, run
+makeJSON.pl to generate data.js.
+
+Simply copy the entire directory including data.js to install on a
+webserver or locally.
+
+=head1 Seeing the Visualization
+
+Load the index.html file present in a browser to check out the results.
 
 =head1 CONTRIBUTING
 
-Too early to be accepting any contributions. Just using github to collaborate and distribute for now.
+Use github to collaborate and distribute for now.
  
 =head1 SEE ALSO
 
@@ -38,7 +55,7 @@ Yinfeng Qin
 
 Geoff McGhee
 
-Nandu Jayakumar (firstname@univ.edu)
+Nandu Jayakumar (FIRSTNAME@cs.UNIV.edu)
 
 =cut
 

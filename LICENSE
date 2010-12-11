@@ -1,0 +1,54 @@
+Copyright (c) 2010, Nanda Kumar Jayakumar <nandu@cs.stanford.edu>
+All rights reserved.
+
+This software is issued by Nanda Kumar Jayakumar under the terms of
+the BSD license.
+http://opensource.org/licenses/bsd-license.php
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+- Redistributions of source code must retain the above copyright
+  notice, this list of conditions and the following disclaimer.
+
+- Redistributions in binary form must reproduce the above copyright
+  notice, this list of conditions and the following disclaimer in the
+  documentation and/or other materials provided with the distribution.
+
+- Neither the name of Nanda Kumar Jayakumar nor the names of any other
+  contributors may be used to endorse or promote products derived from
+  this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+---
+
+Sources of Intellectual Property Included in the software
+
+Below is a list of certain publicly available software that is
+the source of intellectual property in this software, along with the licensing
+terms that pertain to those sources of IP. This list is for
+informational purposes only and is not intended to represent an
+exhaustive list of third party contributions to the software.
+
+Cartographer.js is licensed under the MIT license.
+raphael.js is licensed under the MIT license.
+
+---
+
+The website and its content are licensed under the Creative Commons Attribution 3.0
+Unported License. To view a copy of this license, visit
+[http://creativecommons.org/licenses/by/3.0/]; or, (b) send a letter
+to Creative Commons, 171 2nd Street, Suite 300, San Francisco,
+California, 94105, USA
